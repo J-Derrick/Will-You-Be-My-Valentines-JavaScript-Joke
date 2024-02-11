@@ -1,0 +1,41 @@
+body {
+    background-image: url('assets/heart-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .proposal-card {
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(8px);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .glass {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  }
+  
+  .btn-primary:hover ~ .btn-primary #noBtn {
+    animation: moveAway 2s infinite;
+  }
+
+  .move-away {
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  @keyframes moveAway {
+    0% {
+      transform: translate(0, 0);
+    }
+    50% {
+      transform: translate(50px, -50px);
+    }
+    100% {
+      transform: translate(0, 0);
+    }
+  }
+  
