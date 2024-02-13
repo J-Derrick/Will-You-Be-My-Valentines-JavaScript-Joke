@@ -23,7 +23,7 @@ This project is a fun and playful Valentine's proposal webpage designed to add a
 1. Clone the repository to your local machine.
 2. Open the `index.html` file in your web browser. Or test it here: https://tony.debuggedagency.com/valentines/
 3. Interact with the "Yes" and "No" buttons to see the effects.
-
+4. Go get your Valentine's suit and put your plans in motion because there is no way you will stay single!
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
